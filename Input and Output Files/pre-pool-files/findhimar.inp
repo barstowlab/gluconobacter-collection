@@ -1,0 +1,17 @@
+# ---------------------------------------------------------------------------------- #
+# findhimar.inp
+# Created by Buz Barstow 2018-11-09
+# Last modified by Sean Medin 2019-08-17
+
+# Input file for program to find what percentage of cds loci in the genome have at 
+# or ta sequences 
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Input data
+referenceGenomeGenBankFileName = GOB58.gb
+# ---------------------------------------------------------------------------------- #
+
+# Output file
+outputFileName = GOB58_gene_transposon_targets.csv
+# ---------------------------------------------------------------------------------- #

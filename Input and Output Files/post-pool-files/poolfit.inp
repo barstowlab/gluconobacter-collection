@@ -1,0 +1,31 @@
+# ---------------------------------------------------------------------------------- #
+# poolfit.inp
+# Input parameters for program to derive Bayesian inference parameters for solution
+# of pool presence table.
+# Created by Buz Barstow 2019-05-01
+# Last modified by Sean Medin 2019-09-23
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Input data files and parameters
+
+rowPools = A,B,C,D,E,F,G,H
+colPools = 1,2,3,4,5,6,7,8,9,10,11,12
+controlPools = none
+
+sudokuGridLayout = pool_presence_table/gluconobacter_plate_grid.csv
+
+poolPresenceTableFileName = pool_presence_table/pool_presence_table_gluconobacter.csv
+
+readCountThreshold = 4
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Output files
+
+logReadNumberRatioHistogramsFileName = log_read_number_ratio_histograms.csv
+
+logReadNumberRatioFitFileName = log_read_number_ratio_fits.csv
+
+bayesianParameterFileName = bayesian_parameters.csv
+# ---------------------------------------------------------------------------------- #

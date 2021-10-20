@@ -1,0 +1,28 @@
+Sudoku Taxonomy Pre-Grouping
+totalMutants: 10664
+mutantsInSinglyOccupiedWells: 5437
+mutantsInMultiplyOccupiedWells: 7761
+emptyWells: 3639
+singlyOccupiedWells: 6234
+multiplyOccupiedWells: 5487
+
+Sudoku Taxonomy Post-Grouping
+totalMutants: 10219
+mutantsInSinglyOccupiedWells: 5552
+mutantsInMultiplyOccupiedWells: 7281
+emptyWells: 3639
+singlyOccupiedWells: 6421
+multiplyOccupiedWells: 5300
+
+totalFeatures: 3283
+featuresWithAtLeastOneDisruption: 2299
+featuresWithNoDisruptions: 984
+featuresWithNoDisruptionsInSinglyOccupiedWells: 429
+featuresWithDisruptionsInSinglyOccupiedWells: 1870
+featuresWithAtLeastOneUnambiguouslyMappingDisruption: 2144
+featuresWithAtLeastOneDisruptionInFirstQuarter: 1139
+featuresWithAtLeastOneUnambiguouslyMappingDisruptionInFirstQuarter: 955
+featuresWithAtLeastOneSingleOccupanyDisruptionInFirstQuarter: 758
+featuresWithAtLeastOneDisruptionInFirstTenth: 542
+featuresWithAtLeastOneUnambiguouslyMappingDisruptionInFirstTenth: 437
+featuresWithAtLeastOneSingleOccupanyDisruptionInFirstTenth: 326

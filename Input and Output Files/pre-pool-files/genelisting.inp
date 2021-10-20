@@ -1,0 +1,22 @@
+# ---------------------------------------------------------------------------------- #
+# genelisting.inp
+# Created by Buz Barstow 2018-11-09
+# Last modified by Sean Medin 2019-08-16
+
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Input data
+referenceGenomeGenBankFileName = GOB58.gb
+
+# If you don't know which genes are essential, just create a blank excel sheet
+essentialGeneFileName = GOB58KnownEssentialGenes.csv
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Output data
+cdsOutputFileName = GOB58CDSEssentialityData.csv
+geneOutputFileName = GOB58GeneEssentialityData.csv
+genesWithoutCDSsFileName = GOB58GenesWithoutCDSs.csv
+cdssWithoutGenesFileName = GOB58CDSsWithoutGenes.csv
+# ----------------------------------------------------------------------------------------------- #

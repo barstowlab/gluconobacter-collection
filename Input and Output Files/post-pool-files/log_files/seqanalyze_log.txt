@@ -1,0 +1,37 @@
+totalReads: 3181677
+totalReadsWithHimar: 3132682
+totalReadsWithIndex: 2168962
+totalReadsWithNoStrangeFlags: 850803
+totalReadsWithNoHimar: 48995
+totalReadsWithNoIndex: 1012715
+totalReadsWithStrangeFlags: 2330874
+totalReadsWithPerfectGenome: 765652
+totalReadsWithMultipleAlignment: 15576
+totalReadsWithNoAlignment: 2330874
+totalReadsWithLowScoreAlignment: 69575
+totalReadsWithIndexAndHimar: 2138969
+totalReadsWithIndexAndHimarAndPerfectGenome: 727160
+totalReadsWithIndexAndHimarAndMultipleAlignment: 10220
+totalReadsWithIndexAndHimarButNoAlignment: 1348946
+totalReadsWithIndexAndHimarAndLowScoreAlignment: 52643
+totalReadsWithIndexAndHimarAndPerfectGenomeAndNoStrangeFlags: 727160
+totalReadsWithIndexAndNoHimar: 29993
+totalReadsWithIndexNoHimarAndPerfectGenome: 302
+totalReadsWithIndexNoHimarAndMultipleAlignment: 84
+totalReadsWithIndexNoHimarButNoAlignment: 29178
+totalReadsWithIndexNoHimarAndLowScoreAlignment: 429
+totalReadsWithNoIndexAndHimar: 993713
+totalReadsWithNoIndexAndHimarAndPerfectGenome: 37732
+totalReadsWithNoIndexAndHimarAndMultipleAlignment: 5233
+totalReadsWithNoIndexAndHimarButNoAlignment: 934480
+totalReadsWithNoIndexAndHimarAndLowScoreAlignment: 16268
+totalReadsWithNoIndexAndNoHimar: 19002
+totalReadsWithNoIndexNoHimarAndPerfectGenome: 458
+totalReadsWithNoIndexNoHimarAndMultipleAlignment: 39
+totalReadsWithNoIndexNoHimarButNoAlignment: 18270
+totalReadsWithNoIndexNoHimarAndLowScoreAlignment: 235
+# ----------------------------------------------------------------------------------------------- #
+# ----------------------------------------------------------------------------------------------- #
+Updating Pool Presence Table
+Making Valid Genome Array
+Generating Unique Coordinates List

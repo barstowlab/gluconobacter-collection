@@ -1,0 +1,62 @@
+# ---------------------------------------------------------------------------------- #
+# kosudoku-seqanalyze.inp
+# Created by Buz Barstow 2016-05-03
+# Last Modified by Sean Medin 2019-09-23
+# Input parameter file for first step of sequence data analysis in Knockout Sudoku.
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Input data
+
+barcodeFile = gluconobacter_barcodes.csv
+
+# Adds an additional A that comes with the Illumina index read that wasn't part of 
+# the Sudoku barcodes that we generated. Added after the reverse complement of the 
+# sequences that we generated and ordered from IDT.
+barcodePostfix = A
+
+# Sequence files
+fastqFileBase = /media/barstowlab/Seagate Portable Drive/Data/Gluconobacter_Data_2019-09-16/seq_data/GO_Seq
+fastqFileNumDigits = 2
+fastqFileFirst = 0
+fastqFileLast = 32
+
+# Index sequence files
+indexFastqFileBase = /media/barstowlab/Seagate Portable Drive/Data/Gluconobacter_Data_2019-09-16/index_data/GO_Index
+
+referenceIndexPrefix = bowtie_index/GOB58
+
+himarSequence = GGACTTATCAGCCAACCTGT
+deleteTempFiles = False
+bowtieAlignmentMode = end-to-end
+
+allowedNsInIndexSeq = 3
+indexMismatchesAllowed = 3
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Temporary data
+
+genomeAlignmentBaseDir = temp/kosudoku-seqanalyze/genome_alignment/
+genomeAlignmentFilePrefix = genome_alignment
+
+trimmedSequencesBaseDir = temp/kosudoku-seqanalyze/trimmed_sequences/
+trimmedSequencesFilePrefix = trimmed_sequences
+
+indexSummaryBaseDir = temp/kosudoku-seqanalyze/index_recognition_summary/
+indexSummaryFilePrefix = index_recognition_summary
+
+himarRecognitionBaseDir = temp/kosudoku-seqanalyze/himar_recognition_summary/
+himarRecognitionFilePrefix = himar_recognition_summary
+
+poolFileBaseDir = ../temp/kosudoku-seqanalyze/pool_files/
+poolFilePrefix=pool_
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Output data
+
+outputLog = log_files/seqanalyze_log.txt
+
+poolPresenceTableFileName = pool_presence_table/pool_presence_table_gluconobacter.csv
+# ---------------------------------------------------------------------------------- #

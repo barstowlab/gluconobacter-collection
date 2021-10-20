@@ -1,0 +1,25 @@
+# ---------------------------------------------------------------------------------- #
+# collectionmc.inp
+# Created by Buz Barstow 2016-05-20
+# Last modified by Sean Medin 2019-08-19
+# Program to generate rarefaction curve to estimate number of colonies to pick to 
+# achieve high level of coverage of genome. 
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Input data
+# numberOfTrials = 1
+# maxMutants = 1000000
+numberOfTrials = 1000
+maxMutants = 300000
+
+
+
+transposonCoordToFeatureIndexFileName = GOB58_transposon_coord_to_feature_lookup_table_gene.xml
+
+# ---------------------------------------------------------------------------------- #
+
+# ---------------------------------------------------------------------------------- #
+# Output data
+outputFileName = GOB58_PickingSimulation_gene.csv
+# ---------------------------------------------------------------------------------- #
